@@ -21,7 +21,7 @@ def Sifre_Çöz(sifre):
             sifrecözüldü += str(sifre_kombinasyonu2.get(sifre[basamak:basamak+4]))
             basamak += 4
     return sifrecözüldü
-
+os.system("figlet KanliSilah")
 secim = input("""********************************************
 Mesaj Crypter'a Hoş Geldiniz. CRYPTER V0.1
         YAZAR: KANLI
