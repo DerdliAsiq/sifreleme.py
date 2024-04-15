@@ -7,6 +7,5 @@ apt install python -y
 apt install figlet -y
 git clone https://github.com/Kanli55/sifreleme.py
 cd sifreleme.py
-python setup.py
 python sifreleme.py
 ```
