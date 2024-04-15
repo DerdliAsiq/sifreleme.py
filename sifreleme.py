@@ -1,3 +1,4 @@
+import os
 import time
 sifre_kombinasyonu = {" ":"0","A":"M$3!","B":"Z19+","C":"NG93","D":"B?*T","E":"V#AX","F":"C!+E","G":"L%P^","H":"AR-4","I":"K$#!","J":"JT+/","K":"J55%","L":"SL3+","M":"F4^^","N":"K66&","O":"G6#6","P":"W7QE","Q":"Z^2D","R":"C7F7","S":"B+7H","T":"W3+R","U":"E8EL","V":"W?*E","W":"M'K+","X":"RQ&'","Y":"TQ.3","Z":"P<>3","Ç":"OP.İ","Ğ":"I??H","İ":"U5^W","Ö":"Y&%+","Ü":"JC+X","Ş":"VA/*"}
 sifre_kombinasyonu2 = {}
@@ -21,6 +22,7 @@ def Sifre_Çöz(sifre):
             sifrecözüldü += str(sifre_kombinasyonu2.get(sifre[basamak:basamak+4]))
             basamak += 4
     return sifrecözüldü
+os.system("clear")
 os.system("figlet KanliSilah")
 secim = input("""********************************************
 Mesaj Crypter'a Hoş Geldiniz. CRYPTER V0.1
